@@ -5,3 +5,12 @@
  */
 
 rootProject.name = 'spring-boot-logging'
+include 'logstash-logging-spring-boot-starter'
+
+def optionalProjects = []
+
+for (proj in optionalProjects) {
+    if (new File("$rootDir/../$proj").exists()) {
+        includeFlat proj
+    }
+}
