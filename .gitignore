@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+.DS_Store
+node_modules
+.project
+.settings
+.vscode
+.openapi-generator
+
+bin
+build
+application-local.yml
+application-local.yaml
+localconfig.json
+client/.nvmrc

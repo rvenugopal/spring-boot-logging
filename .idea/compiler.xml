@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logstash-logging-spring-boot-starter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17">
+      <module name="logstash-logging-spring-boot-starter" target="17" />
       <module name="reactive-logstash-logging-spring-boot-starter" target="17" />
     </bytecodeTargetLevel>
   </component>
